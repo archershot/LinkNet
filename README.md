@@ -7,6 +7,7 @@ Full version will be released soon!
 - Ubuntu 20.04
 - Python 3.8.0
 - GPU + CUDA CuDNN
+
 you may configure LinkNet requirements as:
 ```bash
 git clone https://github.com/archershot/linkNet
@@ -15,7 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## Getting Started
-We provide a demo script and sample, you can run the results as:
+We provide a demo script and a sample scan.
+Please download our [pretrained weight](https://drive.google.com/file/d/113MLmm3Z02NOVQZrzaEGowRll-_lgoxc/view?usp=sharing) and move it to folder weights.
+Then, you can run the results as:
 ```bash
 unzip sample.zip
 python demo.py --dataroot ./sample/scenenet/0 --use_dhac

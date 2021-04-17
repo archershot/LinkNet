@@ -1,0 +1,6 @@
+jittor == 1.2.2.61
+opencv-python
+numpy
+pathlib
+tqdm
+argparse
