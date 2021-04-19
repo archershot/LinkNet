@@ -35,9 +35,9 @@ if __name__ == '__main__':
     if opt.use_dhac:
         linknet.load('weights/SceneNet_RGB_DHAC.pkl')
         print("Pretrained Model:'weights/SceneNet_RGB_DHAC.pkl' Loaded")
-    # else:
-    #     linknet.load('weights/SceneNet_RGB_Depth.pth')
-    #     print("Pretrained Model:'weights/SceneNet_RGB_Depth.pth' Loaded")
+    else:
+        linknet.load('weights/SceneNet_RGB_Depth.pkl')
+        print("Pretrained Model:'weights/SceneNet_RGB_Depth.pkl' Loaded")
 
     conf_mat = np.zeros((dataset.num_labels, dataset.num_labels), dtype=np.int)
 

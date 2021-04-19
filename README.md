@@ -17,11 +17,12 @@ pip install -r requirements.txt
 
 ## Getting Started
 We provide a demo script and a sample scan.
-Please download our [pretrained weight](https://drive.google.com/file/d/113MLmm3Z02NOVQZrzaEGowRll-_lgoxc/view?usp=sharing) and move it to folder weights.
+Please download our [pretrained weight](https://drive.google.com/drive/folders/1Q-zhx6gL0GoRnLWPAbKBAIdWGJCk3IrG?usp=sharing) and move it to folder weights.
 Then, you can run the results as:
 ```bash
 unzip sample.zip
-python demo.py --dataroot ./sample/scenenet/0 --use_dhac
+python demo.py --dataroot ./sample ### for fusenet
+python demo.py --dataroot ./sample --use_dhac ### for dhac encoding for depth(linknet's backbone)
 ```
 
 ## Results
